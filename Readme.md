@@ -20,7 +20,7 @@
 **Project Install**
 ```
 
-sudo apt-get install python-pip python-dev build-essential python-smbus libzmq3-dev i2c-tools  git scons swig
+sudo apt-get install python-pip python-dev build-essential python-smbus libzmq3-dev i2c-tools  git scons swig libkrb5-dev
 sudo apt-get install libavahi-compat-libdnssd-dev avahi-daemon libsox-fmt-mp3 mpg123
 
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -

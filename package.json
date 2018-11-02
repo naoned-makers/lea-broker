@@ -13,19 +13,9 @@
   "license": "MIT",
   "dependencies": {
     "bonjour": "git+https://github.com/ionic-team/bonjour.git",
-    "diskusage": "^0.2.4",
-    "express": "^4.15.3",
-    "firebase-admin": "^5.2.1",
+    "express": "^4.16.4",
     "ip": "^1.1.5",
-    "lodash": "^4.17.10",
-    "make": "^0.8.1",
-    "mobx": "^3.3.1",
-    "mobx-state-tree": "^1.0.1",
     "mosca": "^2.8.3",
-    "mqtt": "^2.12.0",
-    "path": "^0.12.7",
-    "play-sound": "^1.1.2",
-    "pm2": "^2.7.1",
-    "rxjs": "^5.4.3"
+    "mqtt": "^2.18.8"
   }
 }
