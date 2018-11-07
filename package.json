@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node service/lea-broker.js",
-    "prod": "node service/lea-broker.js"
+    "prod": "node service/lea-broker.js",
+    "build": "echo \"Lea-broker don't need to be build...at this time :-)\""
   },
   "author": "dbatiot",
   "license": "MIT",
