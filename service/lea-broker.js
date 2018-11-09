@@ -67,7 +67,6 @@ server.on('published', function (packet, client) {
 });
 
 function publishUpdatedClientList() {
-    //console.log(Object.keys(server.clients));
     let mqttMessage = {
         topic: "lea/status",
         payload: JSON.stringify({brokerClients:Object.keys(server.clients)}),
