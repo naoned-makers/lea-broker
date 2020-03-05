@@ -48,7 +48,7 @@ let db = new mosca.persistence.Memory();
 db.wire(server);
 
 server.on('ready', function () {
-    console.log('\x1b[35m%s\x1b[0m', "brocker is up on " + ip.address());
+    console.log('\x1b[35m%s\x1b[0m', "broker is up on " + ip.address());
     bonjour.publish({ name: 'leabroker', type: 'mqtt',subtypes:["lea","broker"], port: MQTT_PORT, txt:{wsport: WS_PORT, subtypes: ["lea","broker"]} });
 });
 
@@ -67,7 +67,6 @@ server.on('published', function (packet, client) {
 });
 
 function publishUpdatedClientList() {
-    //console.log(Object.keys(server.clients));
     let mqttMessage = {
         topic: "lea/status",
         payload: JSON.stringify({brokerClients:Object.keys(server.clients)}),
