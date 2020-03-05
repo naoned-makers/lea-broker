@@ -1,8 +1,6 @@
 "use strict";
 let mosca = require('mosca');
-let mqtt = require('mqtt');
 let ip = require("ip");
-let os = require("os");
 var bonjour = require('bonjour')();
 
 
